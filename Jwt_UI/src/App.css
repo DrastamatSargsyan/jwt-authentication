@@ -1,0 +1,73 @@
+.App {
+  background-color: #0f0033;
+  height: 754px;
+}
+
+.HomeBox {
+  background-image: url("./home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 754px;
+  text-align: center;
+}
+
+.LoginBox {
+  background-color: #290088;
+  border-radius: 25.5px;
+  height: 590px;
+  max-width: 430px;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.DataBox {
+  text-align: center;
+  background-color: #290088;
+  border-radius: 25.5px;
+  height: 590px;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.LoginBoxBackground {
+  background-color: #0f0033;
+  height: 754px;
+  padding: 60px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
